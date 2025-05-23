@@ -16,12 +16,11 @@ This project builds a machine learning model to forecast daily item sales across
 
 ```bash
 .
-├── model-data.csv                          # (Optional) Preprocessed dataset (may be too large for GitHub) 
+├── model-data.csv
 ├── time-series-forecast-eda.ipynb          # Data exploration, cleaning & initial feature engineering 
 ├── time-series-forecast-naive-ml.ipynb     # Baseline & naive forecast models 
 ├── time-series-forecast-classical-ml.ipynb # ARIMA model 
 ├── time-series-forecast-xgboost.ipynb      # Final model development and evaluation 
-├── model_utils.py                          # Helper functions used across notebooks 
 ├── xgh_model.pkl                           # Trained XGBoost model (saved with Pickle) 
 └── README.md
 ```
@@ -70,7 +69,7 @@ Key steps included:
 
 ## 📈 Results: Forecast vs Actual
 
-![Forecast Plot](https://github.com/DanMontHell/Grocery-Sales-Forecasting/assets/your-image-path/final_forecast_plot.png)
+![Forecast Plot](https://github.com/DanMontHell/Time-Series-Forecast-Masterschool/blob/main/time_series_prediction.png)
 
 ---
 
@@ -78,7 +77,7 @@ Key steps included:
 
 The most predictive features according to the tuned XGBoost model:
 
-![Feature Importance](https://github.com/DanMontHell/Grocery-Sales-Forecasting/assets/your-image-path/feature_importance.png)
+![Feature Importance](https://github.com/DanMontHell/Time-Series-Forecast-Masterschool/blob/main/feature_importance.png)
 
 ---
 
