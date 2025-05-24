@@ -111,4 +111,4 @@ The most predictive features according to the tuned XGBoost model:
 
 This project demonstrates a full time series forecasting pipeline from raw data to deployment-ready model, applying best practices in feature engineering, model selection, and interpretability.
 
-If you’d like to collaborate, have feedback, or want to see more of my work, feel free to connect on [LinkedIn](https://www.linkedin.com/in/your-link-here/) or explore other [projects on GitHub](https://github.com/DanMontHell).
+If you’d like to collaborate, have feedback, or want to see more of my work, feel free to connect on [LinkedIn](https://www.linkedin.com/in/danhellmuth/) or explore other [projects on GitHub](https://github.com/DanMontHell).
