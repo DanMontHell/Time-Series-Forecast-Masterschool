@@ -2,10 +2,10 @@
 
 This project builds a machine learning model to forecast daily item sales across stores in the **Guayas region** of Ecuador using real-world data from [Corporación Favorita Grocery Sales Forecasting](https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data) on Kaggle. The goal was to predict future demand and optimize inventory, using a blend of classical and modern machine learning techniques.
 
-> ⏳ **Project Duration:** 4 weeks  
-> 🎯 **Forecast Period:** January – March 2014  
-> 🧪 **Model Type:** XGBoost Regressor  
-> 🏆 **Best Model Performance:**  
+> **Project Duration:** 4 weeks  
+> **Forecast Period:** January – March 2014  
+> **Model Type:** XGBoost Regressor  
+> **Best Model Performance:**  
 > • MAE: **0.0562**  
 > • MAPE: **1.66%**  
 > • R² Score: **0.8379**
@@ -39,6 +39,19 @@ From the [Kaggle competition dataset](https://www.kaggle.com/competitions/favori
 | `oil.csv` | Daily oil prices (Ecuador is oil-dependent) |
 | `holidays_events.csv` | Local/national holidays & their characteristics |
 | `onpromotion` | Binary flag indicating promotional activity per item/store/day |
+
+---
+## 👩‍💻 System Setup 
+### Create and activate a virtual environment (Windows)
+> python -m venv venv
+> venv\Scripts\activate
+
+### For macOS/Linux
+> python3 -m venv venv
+> source venv/bin/activate
+
+### Install required libraries
+> pip install -r requirements.txt
 
 ---
 
@@ -88,13 +101,13 @@ The most predictive features according to the tuned XGBoost model:
 `scikit-learn` · `XGBoost` · `Matplotlib` · `Seaborn`
 
 **Core Skills Demonstrated**  
-- 📊 **Time Series Analysis**: trends, lags, rolling features  
-- 🔍 **EDA & Feature Engineering**: merging datasets, handling NaNs, outlier removal  
-- 🧠 **Machine Learning**: regression, model tuning, error evaluation  
-- 🧪 **Model Evaluation**: MAPE, MAE, R² with visual and numeric tracking  
-- 💾 **Model Persistence**: Saved with `pickle` for reuse  
-- 📁 **Project Modularity**: Jupyter notebooks + utility script  
-- 🧹 **Efficient Workflow**: filtered 2M-row subset for reproducibility
+- **Time Series Analysis**: trends, lags, rolling features  
+- **EDA & Feature Engineering**: merging datasets, handling NaNs, outlier removal  
+- **Machine Learning**: regression, model tuning, error evaluation  
+- **Model Evaluation**: MAPE, MAE, R² with visual and numeric tracking  
+- **Model Persistence**: Saved with `pickle` for reuse  
+- **Project Modularity**: Jupyter notebooks + utility script  
+- **Efficient Workflow**: filtered 2M-row subset for reproducibility
 
 ---
 
