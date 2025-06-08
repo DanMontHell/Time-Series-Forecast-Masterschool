@@ -41,17 +41,22 @@ From the [Kaggle competition dataset](https://www.kaggle.com/competitions/favori
 | `onpromotion` | Binary flag indicating promotional activity per item/store/day |
 
 ---
-## 👩‍💻 System Setup 
-### Create and activate a virtual environment (Windows)
-> python -m venv venv
-> venv\Scripts\activate
 
-### For macOS/Linux
-> python3 -m venv venv
-> source venv/bin/activate
+## 💻 Setting Up Your Environment
 
-### Install required libraries
-> pip install -r requirements.txt
+I recommend using a virtual environment to manage dependencies.
+
+```bash
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook
+```
 
 ---
 
